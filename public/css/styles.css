@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.image {
+    width: 400px; /* Set a fixed width */
+    height: 400px; /* Set a fixed height */
+    margin: 0 auto; /* Center the box */
+    overflow: hidden; /* Hide overflow */
+    border: 2px solid #333; /* Add border for visual effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; /* Background color for the box */
+}
+
+/* .image img { */
+   /* max-width: 100%; Scale the image to fit the box */
+     /* max-height: 100%; Scale the image to fit the box */
+/* } */
+
+#new-button {
+    margin-top: 20px; /* Space between the box and button */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #333; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
